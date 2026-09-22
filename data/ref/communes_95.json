@@ -1,0 +1,2381 @@
+[
+{
+"code": "95002",
+"nom": "Ableiges",
+"population": 1108,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9512,
+49.0652,
+1.9951,
+49.1092
+]
+},
+{
+"code": "95008",
+"nom": "Aincourt",
+"population": 854,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7461,
+49.0566,
+1.7998,
+49.0899
+]
+},
+{
+"code": "95011",
+"nom": "Ambleville",
+"population": 388,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6693,
+49.1287,
+1.7222,
+49.1733
+]
+},
+{
+"code": "95012",
+"nom": "Amenucourt",
+"population": 212,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6175,
+49.0861,
+1.6765,
+49.1304
+]
+},
+{
+"code": "95014",
+"nom": "Andilly",
+"population": 2742,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.2903,
+48.9957,
+2.314,
+49.024
+]
+},
+{
+"code": "95018",
+"nom": "Argenteuil",
+"population": 106130,
+"epci_code": "200054781",
+"epci": "Métropole du Grand Paris",
+"bbox": [
+2.2034,
+48.9277,
+2.2923,
+48.9725
+]
+},
+{
+"code": "95019",
+"nom": "Arnouville",
+"population": 15023,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4008,
+48.975,
+2.4323,
+48.9985
+]
+},
+{
+"code": "95023",
+"nom": "Arronville",
+"population": 618,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.0733,
+49.1534,
+2.1651,
+49.1934
+]
+},
+{
+"code": "95024",
+"nom": "Arthies",
+"population": 265,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7769,
+49.0722,
+1.8185,
+49.1149
+]
+},
+{
+"code": "95026",
+"nom": "Asnières-sur-Oise",
+"population": 3127,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3362,
+49.1168,
+2.4409,
+49.1594
+]
+},
+{
+"code": "95028",
+"nom": "Attainville",
+"population": 1904,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.3288,
+49.0447,
+2.3752,
+49.0766
+]
+},
+{
+"code": "95039",
+"nom": "Auvers-sur-Oise",
+"population": 6863,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.1203,
+49.064,
+2.1931,
+49.1051
+]
+},
+{
+"code": "95040",
+"nom": "Avernes",
+"population": 871,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8203,
+49.068,
+1.9058,
+49.1167
+]
+},
+{
+"code": "95042",
+"nom": "Baillet-en-France",
+"population": 2021,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.2716,
+49.0464,
+2.3354,
+49.0724
+]
+},
+{
+"code": "95046",
+"nom": "Banthelu",
+"population": 146,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7924,
+49.108,
+1.8376,
+49.1435
+]
+},
+{
+"code": "95051",
+"nom": "Beauchamp",
+"population": 9849,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.1728,
+49.0017,
+2.2149,
+49.0254
+]
+},
+{
+"code": "95052",
+"nom": "Beaumont-sur-Oise",
+"population": 10232,
+"epci_code": "249500489",
+"epci": "CC du Haut Val d'Oise",
+"bbox": [
+2.2681,
+49.1228,
+2.3227,
+49.1516
+]
+},
+{
+"code": "95054",
+"nom": "Le Bellay-en-Vexin",
+"population": 224,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.855,
+49.1377,
+1.8976,
+49.1631
+]
+},
+{
+"code": "95055",
+"nom": "Bellefontaine",
+"population": 474,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.45,
+49.071,
+2.4891,
+49.1123
+]
+},
+{
+"code": "95056",
+"nom": "Belloy-en-France",
+"population": 2250,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3438,
+49.0718,
+2.3964,
+49.1104
+]
+},
+{
+"code": "95058",
+"nom": "Bernes-sur-Oise",
+"population": 2684,
+"epci_code": "249500489",
+"epci": "CC du Haut Val d'Oise",
+"bbox": [
+2.2851,
+49.1502,
+2.3144,
+49.1854
+]
+},
+{
+"code": "95059",
+"nom": "Berville",
+"population": 374,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+2.0382,
+49.1733,
+2.0962,
+49.2105
+]
+},
+{
+"code": "95060",
+"nom": "Bessancourt",
+"population": 8869,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.1683,
+49.0254,
+2.231,
+49.0476
+]
+},
+{
+"code": "95061",
+"nom": "Béthemont-la-Forêt",
+"population": 435,
+"epci_code": "249500455",
+"epci": "CC de la Vallée de l'Oise et des Trois Forêts",
+"bbox": [
+2.2347,
+49.0414,
+2.2627,
+49.0707
+]
+},
+{
+"code": "95063",
+"nom": "Bezons",
+"population": 36434,
+"epci_code": "200058519",
+"epci": "CA Saint Germain Boucles de Seine",
+"bbox": [
+2.1982,
+48.9087,
+2.2311,
+48.9414
+]
+},
+{
+"code": "95074",
+"nom": "Boisemont",
+"population": 892,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+1.9915,
+49.0082,
+2.0151,
+49.0278
+]
+},
+{
+"code": "95078",
+"nom": "Boissy-l'Aillerie",
+"population": 2120,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+2.0159,
+49.0628,
+2.0471,
+49.1013
+]
+},
+{
+"code": "95088",
+"nom": "Bonneuil-en-France",
+"population": 1185,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4166,
+48.9549,
+2.4576,
+48.9798
+]
+},
+{
+"code": "95091",
+"nom": "Bouffémont",
+"population": 6593,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.2748,
+49.0302,
+2.3245,
+49.0508
+]
+},
+{
+"code": "95094",
+"nom": "Bouqueval",
+"population": 314,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4103,
+49.0125,
+2.4441,
+49.0343
+]
+},
+{
+"code": "95101",
+"nom": "Bray-et-Lû",
+"population": 954,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6513,
+49.1275,
+1.6787,
+49.1585
+]
+},
+{
+"code": "95102",
+"nom": "Bréançon",
+"population": 432,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9959,
+49.1291,
+2.0585,
+49.1661
+]
+},
+{
+"code": "95110",
+"nom": "Brignancourt",
+"population": 262,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9245,
+49.1297,
+1.9626,
+49.1482
+]
+},
+{
+"code": "95116",
+"nom": "Bruyères-sur-Oise",
+"population": 4921,
+"epci_code": "249500489",
+"epci": "CC du Haut Val d'Oise",
+"bbox": [
+2.3096,
+49.1419,
+2.3593,
+49.1865
+]
+},
+{
+"code": "95119",
+"nom": "Buhy",
+"population": 329,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6805,
+49.1771,
+1.7259,
+49.2082
+]
+},
+{
+"code": "95120",
+"nom": "Butry-sur-Oise",
+"population": 2252,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.1715,
+49.0739,
+2.2082,
+49.0928
+]
+},
+{
+"code": "95127",
+"nom": "Cergy",
+"population": 70906,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+2,
+49.018,
+2.0912,
+49.0565
+]
+},
+{
+"code": "95134",
+"nom": "Champagne-sur-Oise",
+"population": 5036,
+"epci_code": "249500489",
+"epci": "CC du Haut Val d'Oise",
+"bbox": [
+2.1924,
+49.1242,
+2.2636,
+49.167
+]
+},
+{
+"code": "95139",
+"nom": "La Chapelle-en-Vexin",
+"population": 320,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7102,
+49.172,
+1.7446,
+49.1952
+]
+},
+{
+"code": "95141",
+"nom": "Charmont",
+"population": 32,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7669,
+49.1292,
+1.8132,
+49.1481
+]
+},
+{
+"code": "95142",
+"nom": "Chars",
+"population": 2006,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8824,
+49.1391,
+1.9781,
+49.1751
+]
+},
+{
+"code": "95144",
+"nom": "Châtenay-en-France",
+"population": 68,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.4414,
+49.0548,
+2.4829,
+49.0749
+]
+},
+{
+"code": "95149",
+"nom": "Chaumontel",
+"population": 3332,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.4109,
+49.1145,
+2.4625,
+49.1411
+]
+},
+{
+"code": "95150",
+"nom": "Chaussy",
+"population": 631,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6696,
+49.0914,
+1.7458,
+49.1393
+]
+},
+{
+"code": "95151",
+"nom": "Chauvry",
+"population": 297,
+"epci_code": "249500455",
+"epci": "CC de la Vallée de l'Oise et des Trois Forêts",
+"bbox": [
+2.2531,
+49.0364,
+2.285,
+49.0755
+]
+},
+{
+"code": "95154",
+"nom": "Chennevières-lès-Louvres",
+"population": 282,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.5261,
+49.0293,
+2.5706,
+49.0532
+]
+},
+{
+"code": "95157",
+"nom": "Chérence",
+"population": 137,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6485,
+49.0742,
+1.7075,
+49.1081
+]
+},
+{
+"code": "95166",
+"nom": "Cléry-en-Vexin",
+"population": 476,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8293,
+49.1192,
+1.8688,
+49.1441
+]
+},
+{
+"code": "95169",
+"nom": "Commeny",
+"population": 646,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8657,
+49.1142,
+1.9149,
+49.1406
+]
+},
+{
+"code": "95170",
+"nom": "Condécourt",
+"population": 564,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9125,
+49.0218,
+1.961,
+49.0518
+]
+},
+{
+"code": "95176",
+"nom": "Cormeilles-en-Parisis",
+"population": 27292,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.1731,
+48.9496,
+2.2288,
+48.9905
+]
+},
+{
+"code": "95177",
+"nom": "Cormeilles-en-Vexin",
+"population": 1297,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.99,
+49.0965,
+2.0439,
+49.1322
+]
+},
+{
+"code": "95181",
+"nom": "Courcelles-sur-Viosne",
+"population": 310,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9754,
+49.0634,
+2.015,
+49.0834
+]
+},
+{
+"code": "95183",
+"nom": "Courdimanche",
+"population": 7311,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+1.9836,
+49.0235,
+2.016,
+49.0607
+]
+},
+{
+"code": "95197",
+"nom": "Deuil-la-Barre",
+"population": 23099,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.3098,
+48.9575,
+2.3443,
+48.9831
+]
+},
+{
+"code": "95199",
+"nom": "Domont",
+"population": 16065,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.2944,
+49.0107,
+2.3546,
+49.0468
+]
+},
+{
+"code": "95203",
+"nom": "Eaubonne",
+"population": 26211,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.2635,
+48.9758,
+2.2929,
+49.0066
+]
+},
+{
+"code": "95205",
+"nom": "Écouen",
+"population": 7202,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.3617,
+49.0096,
+2.4095,
+49.042
+]
+},
+{
+"code": "95210",
+"nom": "Enghien-les-Bains",
+"population": 11432,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.2926,
+48.9617,
+2.3173,
+48.9794
+]
+},
+{
+"code": "95211",
+"nom": "Ennery",
+"population": 2243,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.0841,
+49.0597,
+2.1331,
+49.0936
+]
+},
+{
+"code": "95212",
+"nom": "Épiais-lès-Louvres",
+"population": 156,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.5256,
+49.0223,
+2.5697,
+49.0419
+]
+},
+{
+"code": "95213",
+"nom": "Épiais-Rhus",
+"population": 603,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.0464,
+49.1008,
+2.0937,
+49.1491
+]
+},
+{
+"code": "95214",
+"nom": "Épinay-Champlâtreux",
+"population": 57,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3879,
+49.0802,
+2.4262,
+49.1014
+]
+},
+{
+"code": "95218",
+"nom": "Éragny-sur-Oise",
+"population": 18436,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+2.0795,
+49.0087,
+2.121,
+49.0361
+]
+},
+{
+"code": "95219",
+"nom": "Ermont",
+"population": 29489,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.2422,
+48.9762,
+2.2738,
+49.0018
+]
+},
+{
+"code": "95229",
+"nom": "Ézanville",
+"population": 9858,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.3405,
+49.0218,
+2.3829,
+49.0545
+]
+},
+{
+"code": "95241",
+"nom": "Fontenay-en-Parisis",
+"population": 2219,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4117,
+49.0285,
+2.4827,
+49.0678
+]
+},
+{
+"code": "95250",
+"nom": "Fosses",
+"population": 10570,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4774,
+49.0936,
+2.5311,
+49.1069
+]
+},
+{
+"code": "95252",
+"nom": "Franconville",
+"population": 37754,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.2032,
+48.9723,
+2.244,
+49.0035
+]
+},
+{
+"code": "95253",
+"nom": "Frémainville",
+"population": 507,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8406,
+49.0541,
+1.8966,
+49.0786
+]
+},
+{
+"code": "95254",
+"nom": "Frémécourt",
+"population": 526,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9752,
+49.1081,
+2.0117,
+49.1357
+]
+},
+{
+"code": "95256",
+"nom": "Frépillon",
+"population": 3317,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.1733,
+49.0388,
+2.2313,
+49.0611
+]
+},
+{
+"code": "95257",
+"nom": "La Frette-sur-Seine",
+"population": 4570,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.1664,
+48.9591,
+2.1858,
+48.9866
+]
+},
+{
+"code": "95258",
+"nom": "Frouville",
+"population": 347,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.1269,
+49.139,
+2.1662,
+49.1759
+]
+},
+{
+"code": "95268",
+"nom": "Garges-lès-Gonesse",
+"population": 41791,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.3824,
+48.9561,
+2.4248,
+48.983
+]
+},
+{
+"code": "95270",
+"nom": "Genainville",
+"population": 522,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7303,
+49.0902,
+1.7822,
+49.1384
+]
+},
+{
+"code": "95271",
+"nom": "Génicourt",
+"population": 514,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.0395,
+49.0788,
+2.0853,
+49.1108
+]
+},
+{
+"code": "95277",
+"nom": "Gonesse",
+"population": 27707,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4165,
+48.955,
+2.504,
+49.0162
+]
+},
+{
+"code": "95280",
+"nom": "Goussainville",
+"population": 31301,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4382,
+49.0083,
+2.4986,
+49.0451
+]
+},
+{
+"code": "95287",
+"nom": "Grisy-les-Plâtres",
+"population": 709,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+2.0298,
+49.1082,
+2.0676,
+49.1532
+]
+},
+{
+"code": "95288",
+"nom": "Groslay",
+"population": 8453,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.3347,
+48.9766,
+2.3682,
+48.9938
+]
+},
+{
+"code": "95295",
+"nom": "Guiry-en-Vexin",
+"population": 161,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8276,
+49.0997,
+1.8835,
+49.1324
+]
+},
+{
+"code": "95298",
+"nom": "Haravilliers",
+"population": 589,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.999,
+49.1603,
+2.0762,
+49.1921
+]
+},
+{
+"code": "95301",
+"nom": "Haute-Isle",
+"population": 293,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6435,
+49.0718,
+1.6916,
+49.0979
+]
+},
+{
+"code": "95303",
+"nom": "Le Heaulme",
+"population": 207,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9892,
+49.1589,
+2.0124,
+49.1752
+]
+},
+{
+"code": "95304",
+"nom": "Hédouville",
+"population": 278,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.1597,
+49.1408,
+2.1985,
+49.176
+]
+},
+{
+"code": "95306",
+"nom": "Herblay-sur-Seine",
+"population": 31779,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.1161,
+48.9815,
+2.1955,
+49.0293
+]
+},
+{
+"code": "95308",
+"nom": "Hérouville-en-Vexin",
+"population": 584,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.1051,
+49.0858,
+2.1512,
+49.1237
+]
+},
+{
+"code": "95309",
+"nom": "Hodent",
+"population": 225,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.741,
+49.1319,
+1.7837,
+49.1525
+]
+},
+{
+"code": "95313",
+"nom": "L'Isle-Adam",
+"population": 12493,
+"epci_code": "249500455",
+"epci": "CC de la Vallée de l'Oise et des Trois Forêts",
+"bbox": [
+2.206,
+49.0849,
+2.2639,
+49.1303
+]
+},
+{
+"code": "95316",
+"nom": "Jagny-sous-Bois",
+"population": 269,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.4223,
+49.0685,
+2.4627,
+49.095
+]
+},
+{
+"code": "95323",
+"nom": "Jouy-le-Moutier",
+"population": 17854,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+2.0076,
+48.9979,
+2.0644,
+49.0257
+]
+},
+{
+"code": "95328",
+"nom": "Labbeville",
+"population": 641,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.1111,
+49.1159,
+2.1599,
+49.1538
+]
+},
+{
+"code": "95331",
+"nom": "Lassy",
+"population": 196,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.4229,
+49.0868,
+2.4518,
+49.1037
+]
+},
+{
+"code": "95341",
+"nom": "Livilliers",
+"population": 389,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.0722,
+49.084,
+2.1165,
+49.1164
+]
+},
+{
+"code": "95348",
+"nom": "Longuesse",
+"population": 496,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.898,
+49.0458,
+1.9609,
+49.0785
+]
+},
+{
+"code": "95351",
+"nom": "Louvres",
+"population": 12560,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.474,
+49.0241,
+2.5283,
+49.0648
+]
+},
+{
+"code": "95352",
+"nom": "Luzarches",
+"population": 5008,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3885,
+49.0917,
+2.5033,
+49.1417
+]
+},
+{
+"code": "95353",
+"nom": "Maffliers",
+"population": 1856,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.2837,
+49.0718,
+2.3388,
+49.1008
+]
+},
+{
+"code": "95355",
+"nom": "Magny-en-Vexin",
+"population": 5779,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7699,
+49.1388,
+1.8415,
+49.1853
+]
+},
+{
+"code": "95365",
+"nom": "Mareil-en-France",
+"population": 734,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3943,
+49.0562,
+2.4418,
+49.0839
+]
+},
+{
+"code": "95369",
+"nom": "Margency",
+"population": 3012,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.2811,
+48.9967,
+2.297,
+49.0065
+]
+},
+{
+"code": "95370",
+"nom": "Marines",
+"population": 3594,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9601,
+49.1305,
+2.005,
+49.1693
+]
+},
+{
+"code": "95371",
+"nom": "Marly-la-Ville",
+"population": 6022,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4844,
+49.0627,
+2.5295,
+49.0981
+]
+},
+{
+"code": "95379",
+"nom": "Maudétour-en-Vexin",
+"population": 208,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7537,
+49.087,
+1.7985,
+49.1328
+]
+},
+{
+"code": "95387",
+"nom": "Menouville",
+"population": 62,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.0855,
+49.1437,
+2.1333,
+49.1607
+]
+},
+{
+"code": "95388",
+"nom": "Menucourt",
+"population": 6184,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+1.9545,
+49.0189,
+1.9932,
+49.0357
+]
+},
+{
+"code": "95392",
+"nom": "Mériel",
+"population": 5347,
+"epci_code": "249500455",
+"epci": "CC de la Vallée de l'Oise et des Trois Forêts",
+"bbox": [
+2.1889,
+49.065,
+2.236,
+49.0894
+]
+},
+{
+"code": "95394",
+"nom": "Méry-sur-Oise",
+"population": 9983,
+"epci_code": "249500455",
+"epci": "CC de la Vallée de l'Oise et des Trois Forêts",
+"bbox": [
+2.1416,
+49.0316,
+2.2045,
+49.0721
+]
+},
+{
+"code": "95395",
+"nom": "Le Mesnil-Aubry",
+"population": 914,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.3698,
+49.0393,
+2.4198,
+49.0687
+]
+},
+{
+"code": "95409",
+"nom": "Moisselles",
+"population": 1261,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.322,
+49.0384,
+2.3527,
+49.0518
+]
+},
+{
+"code": "95422",
+"nom": "Montgeroult",
+"population": 361,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9905,
+49.077,
+2.028,
+49.1028
+]
+},
+{
+"code": "95424",
+"nom": "Montigny-lès-Cormeilles",
+"population": 22457,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.1739,
+48.9793,
+2.2132,
+49.0076
+]
+},
+{
+"code": "95426",
+"nom": "Montlignon",
+"population": 3038,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.2734,
+49.0028,
+2.3028,
+49.0286
+]
+},
+{
+"code": "95427",
+"nom": "Montmagny",
+"population": 15105,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.3283,
+48.9554,
+2.3662,
+48.9799
+]
+},
+{
+"code": "95428",
+"nom": "Montmorency",
+"population": 21763,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.3069,
+48.9695,
+2.3375,
+49.0148
+]
+},
+{
+"code": "95429",
+"nom": "Montreuil-sur-Epte",
+"population": 377,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6607,
+49.1537,
+1.7182,
+49.184
+]
+},
+{
+"code": "95430",
+"nom": "Montsoult",
+"population": 4023,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.2696,
+49.0637,
+2.3356,
+49.0795
+]
+},
+{
+"code": "95436",
+"nom": "Mours",
+"population": 1693,
+"epci_code": "249500489",
+"epci": "CC du Haut Val d'Oise",
+"bbox": [
+2.235,
+49.1236,
+2.2795,
+49.1394
+]
+},
+{
+"code": "95438",
+"nom": "Moussy",
+"population": 108,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8823,
+49.1256,
+1.9339,
+49.1449
+]
+},
+{
+"code": "95445",
+"nom": "Nerville-la-Forêt",
+"population": 756,
+"epci_code": "249500455",
+"epci": "CC de la Vallée de l'Oise et des Trois Forêts",
+"bbox": [
+2.2509,
+49.0739,
+2.303,
+49.1025
+]
+},
+{
+"code": "95446",
+"nom": "Nesles-la-Vallée",
+"population": 1842,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.135,
+49.1037,
+2.1994,
+49.1643
+]
+},
+{
+"code": "95447",
+"nom": "Neuilly-en-Vexin",
+"population": 240,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9627,
+49.1641,
+1.9993,
+49.1839
+]
+},
+{
+"code": "95450",
+"nom": "Neuville-sur-Oise",
+"population": 2058,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+2.0363,
+49.0017,
+2.0849,
+49.0337
+]
+},
+{
+"code": "95452",
+"nom": "Nointel",
+"population": 903,
+"epci_code": "249500489",
+"epci": "CC du Haut Val d'Oise",
+"bbox": [
+2.2766,
+49.1204,
+2.3136,
+49.1384
+]
+},
+{
+"code": "95456",
+"nom": "Noisy-sur-Oise",
+"population": 549,
+"epci_code": "249500489",
+"epci": "CC du Haut Val d'Oise",
+"bbox": [
+2.3132,
+49.1221,
+2.3412,
+49.1466
+]
+},
+{
+"code": "95459",
+"nom": "Nucourt",
+"population": 719,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8327,
+49.1417,
+1.8832,
+49.1753
+]
+},
+{
+"code": "95462",
+"nom": "Omerville",
+"population": 327,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6921,
+49.1134,
+1.745,
+49.1672
+]
+},
+{
+"code": "95476",
+"nom": "Osny",
+"population": 17954,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+2.0278,
+49.0472,
+2.0954,
+49.0864
+]
+},
+{
+"code": "95480",
+"nom": "Parmain",
+"population": 5655,
+"epci_code": "249500455",
+"epci": "CC de la Vallée de l'Oise et des Trois Forêts",
+"bbox": [
+2.1811,
+49.0933,
+2.2174,
+49.1566
+]
+},
+{
+"code": "95483",
+"nom": "Le Perchay",
+"population": 504,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9053,
+49.1011,
+1.9504,
+49.1296
+]
+},
+{
+"code": "95487",
+"nom": "Persan",
+"population": 14359,
+"epci_code": "249500489",
+"epci": "CC du Haut Val d'Oise",
+"bbox": [
+2.2407,
+49.1359,
+2.2942,
+49.1599
+]
+},
+{
+"code": "95488",
+"nom": "Pierrelaye",
+"population": 10130,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.1287,
+49.0007,
+2.1971,
+49.0363
+]
+},
+{
+"code": "95489",
+"nom": "Piscop",
+"population": 768,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.3204,
+49.0058,
+2.3639,
+49.0268
+]
+},
+{
+"code": "95491",
+"nom": "Le Plessis-Bouchard",
+"population": 8518,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.2171,
+48.9943,
+2.2504,
+49.0118
+]
+},
+{
+"code": "95492",
+"nom": "Le Plessis-Gassot",
+"population": 102,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.3996,
+49.024,
+2.4349,
+49.0483
+]
+},
+{
+"code": "95493",
+"nom": "Le Plessis-Luzarches",
+"population": 152,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.4483,
+49.0896,
+2.4654,
+49.1011
+]
+},
+{
+"code": "95500",
+"nom": "Pontoise",
+"population": 31970,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+2.0722,
+49.024,
+2.127,
+49.073
+]
+},
+{
+"code": "95504",
+"nom": "Presles",
+"population": 4017,
+"epci_code": "249500455",
+"epci": "CC de la Vallée de l'Oise et des Trois Forêts",
+"bbox": [
+2.2555,
+49.0922,
+2.3201,
+49.1266
+]
+},
+{
+"code": "95509",
+"nom": "Puiseux-en-France",
+"population": 3765,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4721,
+49.0513,
+2.5072,
+49.0895
+]
+},
+{
+"code": "95510",
+"nom": "Puiseux-Pontoise",
+"population": 603,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+1.9928,
+49.0542,
+2.0346,
+49.0775
+]
+},
+{
+"code": "95523",
+"nom": "La Roche-Guyon",
+"population": 399,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6088,
+49.0712,
+1.6585,
+49.1088
+]
+},
+{
+"code": "95527",
+"nom": "Roissy-en-France",
+"population": 2674,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.484,
+48.9785,
+2.5533,
+49.0285
+]
+},
+{
+"code": "95529",
+"nom": "Ronquerolles",
+"population": 907,
+"epci_code": "249500489",
+"epci": "CC du Haut Val d'Oise",
+"bbox": [
+2.1874,
+49.1544,
+2.2354,
+49.1807
+]
+},
+{
+"code": "95535",
+"nom": "Sagy",
+"population": 1096,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9399,
+49.0343,
+1.9947,
+49.0718
+]
+},
+{
+"code": "95539",
+"nom": "Saint-Brice-sous-Forêt",
+"population": 15063,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.3207,
+48.9866,
+2.3699,
+49.0201
+]
+},
+{
+"code": "95541",
+"nom": "Saint-Clair-sur-Epte",
+"population": 964,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6691,
+49.1809,
+1.7405,
+49.2413
+]
+},
+{
+"code": "95543",
+"nom": "Saint-Cyr-en-Arthies",
+"population": 236,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7244,
+49.0477,
+1.7594,
+49.0732
+]
+},
+{
+"code": "95554",
+"nom": "Saint-Gervais",
+"population": 878,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.718,
+49.1454,
+1.7987,
+49.1858
+]
+},
+{
+"code": "95555",
+"nom": "Saint-Gratien",
+"population": 21336,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.2712,
+48.959,
+2.2986,
+48.9776
+]
+},
+{
+"code": "95563",
+"nom": "Saint-Leu-la-Forêt",
+"population": 16138,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.2239,
+49.0007,
+2.2621,
+49.0414
+]
+},
+{
+"code": "95566",
+"nom": "Saint-Martin-du-Tertre",
+"population": 2689,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3086,
+49.0769,
+2.3616,
+49.1247
+]
+},
+{
+"code": "95572",
+"nom": "Saint-Ouen-l'Aumône",
+"population": 25578,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+2.0958,
+49.0229,
+2.1631,
+49.0673
+]
+},
+{
+"code": "95574",
+"nom": "Saint-Prix",
+"population": 7612,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.2523,
+48.9982,
+2.2975,
+49.04
+]
+},
+{
+"code": "95580",
+"nom": "Saint-Witz",
+"population": 2724,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.5236,
+49.0704,
+2.583,
+49.098
+]
+},
+{
+"code": "95582",
+"nom": "Sannois",
+"population": 26924,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.2257,
+48.962,
+2.2758,
+48.9842
+]
+},
+{
+"code": "95584",
+"nom": "Santeuil",
+"population": 658,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9302,
+49.1175,
+1.9821,
+49.1454
+]
+},
+{
+"code": "95585",
+"nom": "Sarcelles",
+"population": 59173,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.3636,
+48.9713,
+2.4081,
+49.0135
+]
+},
+{
+"code": "95592",
+"nom": "Seraincourt",
+"population": 1305,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8513,
+49.014,
+1.9085,
+49.0664
+]
+},
+{
+"code": "95594",
+"nom": "Seugy",
+"population": 1044,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3833,
+49.1157,
+2.4078,
+49.129
+]
+},
+{
+"code": "95598",
+"nom": "Soisy-sous-Montmorency",
+"population": 18008,
+"epci_code": "200056380",
+"epci": "CA Plaine Vallée",
+"bbox": [
+2.2843,
+48.9751,
+2.3167,
+49.0023
+]
+},
+{
+"code": "95604",
+"nom": "Survilliers",
+"population": 4091,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.5304,
+49.0907,
+2.5595,
+49.1246
+]
+},
+{
+"code": "95607",
+"nom": "Taverny",
+"population": 27593,
+"epci_code": "200058485",
+"epci": "CA Val Parisis",
+"bbox": [
+2.1832,
+49.0029,
+2.2531,
+49.0518
+]
+},
+{
+"code": "95610",
+"nom": "Théméricourt",
+"population": 283,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.8868,
+49.0653,
+1.9261,
+49.1114
+]
+},
+{
+"code": "95611",
+"nom": "Theuville",
+"population": 53,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+2.0486,
+49.1434,
+2.0875,
+49.1702
+]
+},
+{
+"code": "95612",
+"nom": "Le Thillay",
+"population": 4560,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4432,
+48.9935,
+2.4911,
+49.0126
+]
+},
+{
+"code": "95625",
+"nom": "Us",
+"population": 1374,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9215,
+49.086,
+1.9902,
+49.1246
+]
+},
+{
+"code": "95627",
+"nom": "Vallangoujard",
+"population": 625,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.0853,
+49.1119,
+2.1309,
+49.1525
+]
+},
+{
+"code": "95628",
+"nom": "Valmondois",
+"population": 1208,
+"epci_code": "249500430",
+"epci": "CC Sausseron Impressionnistes",
+"bbox": [
+2.1591,
+49.0858,
+2.209,
+49.1096
+]
+},
+{
+"code": "95633",
+"nom": "Vaudherland",
+"population": 104,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.4835,
+48.9989,
+2.4893,
+49.0022
+]
+},
+{
+"code": "95637",
+"nom": "Vauréal",
+"population": 16079,
+"epci_code": "249500109",
+"epci": "CA de Cergy-Pontoise",
+"bbox": [
+2.0097,
+49.019,
+2.0406,
+49.0399
+]
+},
+{
+"code": "95641",
+"nom": "Vémars",
+"population": 3124,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.5457,
+49.0396,
+2.5947,
+49.0807
+]
+},
+{
+"code": "95651",
+"nom": "Vétheuil",
+"population": 849,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.6876,
+49.045,
+1.7321,
+49.0789
+]
+},
+{
+"code": "95652",
+"nom": "Viarmes",
+"population": 5558,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3545,
+49.1063,
+2.4125,
+49.1394
+]
+},
+{
+"code": "95656",
+"nom": "Vienne-en-Arthies",
+"population": 379,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7063,
+49.0521,
+1.741,
+49.0788
+]
+},
+{
+"code": "95658",
+"nom": "Vigny",
+"population": 1137,
+"epci_code": "200035970",
+"epci": "CC Vexin Centre",
+"bbox": [
+1.9045,
+49.0674,
+1.9548,
+49.0948
+]
+},
+{
+"code": "95660",
+"nom": "Villaines-sous-Bois",
+"population": 778,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3386,
+49.0683,
+2.3704,
+49.0817
+]
+},
+{
+"code": "95675",
+"nom": "Villeron",
+"population": 1766,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.5153,
+49.038,
+2.5542,
+49.0802
+]
+},
+{
+"code": "95676",
+"nom": "Villers-en-Arthies",
+"population": 498,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.7039,
+49.0715,
+1.7611,
+49.1013
+]
+},
+{
+"code": "95678",
+"nom": "Villiers-Adam",
+"population": 858,
+"epci_code": "249500455",
+"epci": "CC de la Vallée de l'Oise et des Trois Forêts",
+"bbox": [
+2.2027,
+49.0494,
+2.274,
+49.0912
+]
+},
+{
+"code": "95680",
+"nom": "Villiers-le-Bel",
+"population": 30053,
+"epci_code": "200055655",
+"epci": "CA Roissy Pays de France",
+"bbox": [
+2.3789,
+48.992,
+2.4284,
+49.0242
+]
+},
+{
+"code": "95682",
+"nom": "Villiers-le-Sec",
+"population": 205,
+"epci_code": "200073013",
+"epci": "CC Carnelle Pays-de-France",
+"bbox": [
+2.3673,
+49.0635,
+2.4049,
+49.0865
+]
+},
+{
+"code": "95690",
+"nom": "Wy-dit-Joli-Village",
+"population": 326,
+"epci_code": "249500513",
+"epci": "CC du Vexin-Val de Seine",
+"bbox": [
+1.8013,
+49.0764,
+1.8489,
+49.1167
+]
+}
+]
