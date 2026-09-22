@@ -1,0 +1,514 @@
+<title>Atlas du sport féminin valdoisien</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+:root{
+  --ground:#f3f5f2; --surface:#ffffff; --surface-2:#eaeee9; --ink:#16202a; --ink-2:#4d5864; --muted:#6f7a84;
+  --line:#d6dbd5; --accent:#2c3d8f; --accent-soft:#e3e7f6; --focus:#2c3d8f;
+  --o3:#c05a26; --o2:#e0873f; --o1:#f0b98a; --mid:#e6e5df; --t1:#8fcfbe; --t2:#3fa38b; --t3:#1d7060;
+  --s1:#cde2fb; --s2:#9ec5f4; --s3:#6da7ec; --s4:#3987e5; --s5:#1c5cab; --s6:#0d366b;
+  --na:#f1f1ee; --na-line:#c9ccc6; --hatch:#9aa19c; --stroke:#ffffff;
+  --display:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#101412; --surface:#181d1b; --surface-2:#222826; --ink:#eef1ee; --ink-2:#bcc4c0; --muted:#8e9892;
+    --line:#2f3633; --accent:#a9b6f5; --accent-soft:#252c4d; --focus:#a9b6f5;
+    --o3:#e39a62; --o2:#b8652c; --o1:#6f3a1a; --mid:#3a3b37; --t1:#1b5c4f; --t2:#2f8f78; --t3:#6cc9ae;
+    --s1:#16325a; --s2:#184f95; --s3:#256abf; --s4:#3987e5; --s5:#6da7ec; --s6:#b7d3f6;
+    --na:#1e2321; --na-line:#3a413e; --hatch:#56605b; --stroke:#181d1b;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#101412; --surface:#181d1b; --surface-2:#222826; --ink:#eef1ee; --ink-2:#bcc4c0; --muted:#8e9892;
+  --line:#2f3633; --accent:#a9b6f5; --accent-soft:#252c4d; --focus:#a9b6f5;
+  --o3:#e39a62; --o2:#b8652c; --o1:#6f3a1a; --mid:#3a3b37; --t1:#1b5c4f; --t2:#2f8f78; --t3:#6cc9ae;
+  --s1:#16325a; --s2:#184f95; --s3:#256abf; --s4:#3987e5; --s5:#6da7ec; --s6:#b7d3f6;
+  --na:#1e2321; --na-line:#3a413e; --hatch:#56605b; --stroke:#181d1b;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:20px;padding-block:28px 56px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:.005em}
+h1{font-size:clamp(28px,4vw,40px);font-weight:700;line-height:1.08}
+h2{font-size:24px;font-weight:700;line-height:1.15}
+h3{font-size:17px;font-weight:600}
+.eyebrow{font-family:var(--display);text-transform:uppercase;letter-spacing:.09em;font-size:12.5px;font-weight:600;color:var(--muted)}
+.lede{color:var(--ink-2);max-width:70ch;margin:10px 0 0}
+header.top{display:grid;gap:6px;margin-bottom:22px}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:28px}
+.kpi{background:var(--surface);padding:14px 16px;display:grid;gap:2px;align-content:start}
+.kpi b{font-family:var(--display);font-size:32px;font-weight:700;line-height:1.05;font-variant-numeric:tabular-nums}
+.kpi span{color:var(--ink-2);font-size:13.5px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px}
+section{margin-top:34px}
+section > header{display:grid;gap:6px;margin-bottom:14px}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:end;padding:14px 16px;border-bottom:1px solid var(--line)}
+.ctl{display:grid;gap:4px;min-width:0;max-width:100%}
+.ctl.grow{flex:1 1 260px;max-width:460px}
+.ctl.grow select{width:100%}
+.ctl label,.ctl .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface-2)}
+.seg button{font:inherit;font-size:14px;border:0;background:transparent;color:var(--ink-2);padding:6px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface);font-weight:600}
+select{font:inherit;font-size:14px;padding:6px 10px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);max-width:100%}
+button:focus-visible,select:focus-visible,path:focus-visible,summary:focus-visible,th button:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1fr) 330px}
+.mapbox{padding:12px 14px 10px;border-right:1px solid var(--line);min-width:0}
+.mapbox svg{width:100%;height:auto;display:block}
+.mapbox path.u{stroke:var(--stroke);stroke-width:.7;cursor:pointer;transition:opacity .15s}
+.mapbox path.u:hover{stroke:var(--ink);stroke-width:1.6}
+.mapbox path.u.sel{stroke:var(--ink);stroke-width:2.2}
+.mapbox .outline{fill:none;stroke:var(--ink-2);stroke-width:1}
+.mapbox text.lab{font-family:var(--display);font-size:11.5px;font-weight:600;fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;margin-top:8px;font-size:12.5px;color:var(--ink-2)}
+.legend .title{width:100%;font-weight:600;color:var(--ink)}
+.sw{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.sw i{width:16px;height:12px;border-radius:2px;display:inline-block;border:1px solid var(--line)}
+.note{font-size:12.5px;color:var(--muted);margin-top:6px}
+.side{padding:16px;display:grid;gap:14px;align-content:start}
+.side .who{display:grid;gap:2px}
+.side .who small{color:var(--muted)}
+.side .big{font-family:var(--display);font-size:34px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+dl.facts{display:grid;grid-template-columns:1fr auto;gap:5px 12px;margin:0;font-size:14px}
+dl.facts dt{color:var(--ink-2)}
+dl.facts dd{margin:0;text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.pill{display:inline-block;font-size:11.5px;padding:1px 7px;border-radius:99px;background:var(--surface-2);color:var(--ink-2);font-weight:600}
+.rank{display:grid;grid-template-columns:1fr;gap:8px}
+.rank ol{margin:4px 0 0;padding-left:18px;font-size:13.5px}
+.rank li{margin:1px 0}
+.rank li button{all:unset;cursor:pointer;display:flex;justify-content:space-between;gap:6px;width:100%}
+.rank li button:hover span:first-child{text-decoration:underline}
+.rank li button:focus-visible{outline:2px solid var(--focus)}
+.rank .v{font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--surface);padding:7px 10px;border-radius:6px;font-size:13px;line-height:1.35;z-index:10;max-width:260px}
+.tip b{display:block}
+details.tbl{border-top:1px solid var(--line);padding:10px 16px}
+details.tbl summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.tscroll{overflow-x:auto;margin-top:10px;max-height:420px;overflow-y:auto}
+table{border-collapse:collapse;font-size:13.5px;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+thead th{position:sticky;top:0;background:var(--surface);font-weight:600;color:var(--ink-2)}
+th button{all:unset;cursor:pointer}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
+.chart{padding:16px}
+.chart svg{width:100%;height:auto;display:block;overflow:visible}
+.chart text{font-family:var(--body);font-size:12.5px;fill:var(--ink-2)}
+.chart text.v{fill:var(--ink);font-weight:600}
+.chart .grid{stroke:var(--line)}
+.chart .ref{stroke:var(--ink);stroke-dasharray:3 3;stroke-width:1}
+.chart rect.bar:hover{opacity:.8}
+.finding{display:grid;gap:10px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.finding .panel{padding:14px 16px}
+.finding p{margin:6px 0 0;color:var(--ink-2);font-size:14px}
+.method{font-size:14px;color:var(--ink-2);columns:2 320px;column-gap:32px}
+.method p{margin:0 0 10px;break-inside:avoid}
+.method b{color:var(--ink)}
+@media (max-width:980px){.mapgrid{grid-template-columns:1fr}.mapbox{border-right:0;border-bottom:1px solid var(--line)}.two,.finding{grid-template-columns:1fr}}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi b{font-size:26px}.rank{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Val d'Oise · Direction des Sports · données 2025</div>
+    <h1>Atlas du sport féminin valdoisien</h1>
+    <p class="lede">Où les femmes pratiquent-elles dans les associations sportives aidées par le Département, et où sont-elles absentes ? Cartographie par commune, canton et intercommunalité, complétée par la place des femmes dans l'encadrement.</p>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section aria-labelledby="h-map">
+    <header>
+      <h2 id="h-map">La carte</h2>
+      <p class="lede" style="margin:0">Choisissez une échelle et un indicateur. Cliquez sur un territoire pour afficher sa fiche. Fond de carte schématique : chaque commune est représentée par une zone construite autour de son centre.</p>
+    </header>
+    <div class="panel">
+      <div class="controls">
+        <div class="ctl"><span class="lbl" id="lbl-lvl">Échelle</span>
+          <div class="seg" role="group" aria-labelledby="lbl-lvl" id="lvl">
+            <button type="button" data-v="commune" aria-pressed="false">Communes</button>
+            <button type="button" data-v="canton" aria-pressed="true">Cantons</button>
+            <button type="button" data-v="epci" aria-pressed="false">Intercommunalités</button>
+          </div>
+        </div>
+        <div class="ctl grow"><label for="ind">Indicateur</label><select id="ind"></select></div>
+      </div>
+      <div class="mapgrid">
+        <div class="mapbox">
+          <svg id="map" role="img" aria-label="Carte du Val d'Oise"></svg>
+          <div class="legend" id="legend"></div>
+          <p class="note" id="indnote"></p>
+        </div>
+        <aside class="side" id="side" aria-live="polite"></aside>
+      </div>
+      <details class="tbl">
+        <summary>Voir le tableau de l'échelle affichée</summary>
+        <div class="tscroll"><table id="tbl"></table></div>
+      </details>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-find">
+    <header><h2 id="h-find">Ce que montrent les données</h2></header>
+    <div class="finding" id="findings"></div>
+  </section>
+
+  <section aria-labelledby="h-lad">
+    <header>
+      <h2 id="h-lad">Plus on monte, moins il y a de femmes</h2>
+      <p class="lede" style="margin:0">Part des femmes à chaque niveau, de la pratique aux fonctions de direction. La ligne pointillée marque la parité.</p>
+    </header>
+    <div class="two">
+      <div class="panel chart"><h3>Du terrain aux instances</h3><svg id="ladder"></svg><p class="note">Sources : enquête « Le sport féminin en Val d'Oise » 2021 (comités ayant répondu), fichier élu·es et directeur·rices des sports.</p></div>
+      <div class="panel chart"><h3>Présidentes de club selon la zone (2021)</h3><svg id="zones"></svg><p class="note">Clubs dont le sexe de la présidence est renseigné, découpage « Partie du VO » de l'enquête.</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-disc">
+    <header>
+      <h2 id="h-disc">Part des femmes par discipline, saison 2025/2026</h2>
+      <p class="lede" style="margin:0">Comités départementaux de plus de 300 licencié·es qui renseignent les féminines. Même échelle de couleur que la carte.</p>
+    </header>
+    <div class="panel chart"><svg id="disc"></svg><p class="note" id="discnote"></p></div>
+  </section>
+
+  <section aria-labelledby="h-time">
+    <header>
+      <h2 id="h-time">Dans le temps</h2>
+      <p class="lede" style="margin:0">Les fichiers ne donnent la répartition femmes/hommes par association que pour 2024 et 2025. Deux séries plus longues sont possibles : la part des femmes par discipline sur cinq saisons, et les effectifs des associations aidées depuis 2019, tous sexes confondus.</p>
+    </header>
+    <div class="two">
+      <div class="panel chart"><h3>Part des femmes chez les licencié·es des comités</h3><svg id="tFem"></svg><p class="note" id="tFemNote"></p></div>
+      <div class="panel chart"><h3>Licencié·es des associations suivies depuis 2019</h3><svg id="tVol"></svg><p class="note" id="tVolNote"></p></div>
+    </div>
+    <div class="panel chart" style="margin-top:18px"><h3>Part des femmes par discipline : 2020/21 et 2025/26</h3><svg id="tDisc"></svg><p class="note">Disciplines de plus de 1 000 licencié·es en 2025/26, présentes aux 5 saisons. Point clair : 2020/21 (enquête, saison perturbée par la crise sanitaire). Point foncé : 2025/26 (comités). La ligne pointillée marque la parité.</p></div>
+  </section>
+
+  <section aria-labelledby="h-meth">
+    <header><h2 id="h-meth">Méthode et limites</h2></header>
+    <div class="panel" style="padding:18px 20px"><div class="method">
+      <p><b>Champ.</b> Les données communales portent sur les associations aidées par le Département (dispositifs 01 civiles et 02 scolaires). Ce n'est pas un recensement de tous les clubs. Une commune « sans association aidée » peut accueillir des clubs non aidés.</p>
+      <p><b>Part des femmes.</b> Adhérentes / (adhérentes + adhérents), déclaré par chaque association en 2024 et 2025. Sous 100 adhérent·es, la part est hachurée : elle est trop fragile pour être comparée.</p>
+      <p><b>Lieu de comptage.</b> Les adhérent·es sont comptés dans la commune du siège de l'association, pas dans leur commune de résidence. Les taux par habitant décrivent l'offre locale, pas la pratique des habitantes.</p>
+      <p><b>Libellés trompeurs.</b> Dans les fichiers 2023-2025, plusieurs colonnes « F » contiennent en fait des totaux F+H (par ex. « Licencié F » en 2025). Elles ne sont pas utilisées comme données féminines.</p>
+      <p><b>Cantons.</b> Argenteuil 1-2-3 et Cergy 1-2 sont regroupés, car ils découpent une même commune. Le canton vient de la liste des subventions 2025 pour 108 communes ; pour les 75 autres, il est imputé à partir de la commune voisine. À vérifier avec la liste officielle.</p>
+      <p><b>Intercommunalités.</b> Rattachement selon le code officiel géographique. Argenteuil relève de la Métropole du Grand Paris et Bezons de la CA Saint Germain Boucles de Seine.</p>
+      <p><b>Fond de carte.</b> Les contours officiels (IGN) n'étaient pas accessibles. Les zones sont des cellules de Voronoï autour du centre de chaque commune, limitées à son emprise. La géographie est juste, les contours sont approximatifs.</p>
+      <p><b>Séries temporelles.</b> La répartition F/H par association n'existe qu'en 2024 et 2025 (en 2023, la colonne « Féminine » contient le total). Les effectifs 2019-2025 sont suivis sur les associations présentes les 7 années, rapprochées par leur nom. La part des femmes par discipline combine l'enquête 2020/21 et les comités (2022/23 à 2025/26).</p>
+      <p><b>Population.</b> Population municipale du code officiel géographique (millésime 2026). La base Excel jointe contient tous les chiffres et formules.</p>
+    </div></div>
+  </section>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const DATA = __DATA__;
+const $ = s => document.querySelector(s);
+const nf = new Intl.NumberFormat('fr-FR');
+const f0 = v => v==null ? '–' : nf.format(Math.round(v));
+const f1 = v => v==null ? '–' : new Intl.NumberFormat('fr-FR',{minimumFractionDigits:1,maximumFractionDigits:1}).format(v);
+const pc = v => v==null ? '–' : f1(v*100)+' %';
+const pts = v => v==null ? '–' : (v>0?'+':'')+f1(v)+' pt';
+const DIV = ['--o3','--o2','--o1','--mid','--t1','--t2','--t3'];
+const SEQ = ['--s1','--s2','--s3','--s4','--s5','--s6'];
+const IND = {
+  partF:{label:'Part des femmes parmi les adhérent·es (2025)', fmt:pc, type:'div', breaks:[.30,.37,.44,.48,.52,.60],
+    names:['moins de 30 %','30 – 37 %','37 – 44 %','44 – 48 %','48 – 52 % (parité)','52 – 60 %','60 % et plus'], needBase:true,
+    note:'Parité = entre 48 et 52 %. Moyenne départementale : '},
+  adhF1000:{label:'Adhérentes pour 1 000 habitant·es', fmt:f1, type:'seq', note:'Adhérentes des associations aidées, rapportées à la population de la commune du siège. Moyenne départementale : '},
+  mascShare:{label:'Part des associations très masculines (< 20 % de femmes)', fmt:pc, type:'seq', note:'Part des associations aidées dont moins de 20 % des adhérent·es sont des femmes. Moyenne départementale : '},
+  evol:{label:'Évolution de la part des femmes 2024 → 2025', fmt:pts, type:'div', breaks:[-5,-2,-.5,.5,2,5],
+    names:['baisse > 5 pt','−5 à −2 pt','−2 à −0,5 pt','stable (± 0,5 pt)','+0,5 à +2 pt','+2 à +5 pt','hausse > 5 pt'], needBase:true,
+    note:'En points de pourcentage. Une seule année d\'écart : à lire avec prudence. Département : '},
+  asso10k:{label:'Associations civiles aidées pour 10 000 hab.', fmt:f1, type:'seq', note:'Moyenne départementale : '},
+  sites10k:{label:'Lieux de pratique pour 10 000 hab.', fmt:f1, type:'seq', note:'Équipements recensés (dont cours d\'écoles et collèges). Moyenne départementale : '},
+  evoPanel:{label:'Évolution des licencié·es 2019 → 2025 (associations présentes les 7 ans)', fmt:v=>v==null?'–':(v>0?'+':'')+f1(v*100)+' %', type:'div', breaks:[-.25,-.10,-.02,.02,.10,.25],
+    names:['baisse > 25 %','−25 à −10 %','−10 à −2 %','stable (± 2 %)','+2 à +10 %','+10 à +25 %','hausse > 25 %'], needP:true,
+    note:'Suit les mêmes associations de 2019 à 2025, pour écarter les entrées et sorties de la liste. Tous sexes confondus. Département : '},
+  evoN:{label:'Évolution du nombre d\'associations aidées 2019 → 2025', fmt:v=>v==null?'–':(v>0?'+':'')+nf.format(v), type:'div', breaks:[-4.5,-1.5,-.5,.5,1.5,4.5],
+    names:['−5 ou moins','−4 à −2','−1','aucun changement','+1','+2 à +4','+5 ou plus'], noNone:true,
+    note:'Différence entre le nombre d\'associations civiles aidées en 2025 et en 2019. Département : '},
+  benev100:{label:'Bénévoles femmes pour 100 adhérentes', fmt:f1, type:'seq', note:'Nombre total de bénévoles non disponible : seules les bénévoles femmes sont déclarées. Département : '},
+};
+const SHORT = {'CA Plaine Vallée':'Plaine Vallée','CA Roissy Pays de France':'Roissy Pays de France','CA Saint Germain Boucles de Seine':'Bezons','CA Val Parisis':'Val Parisis','CA de Cergy-Pontoise':'Cergy-Pontoise','CC Carnelle Pays-de-France':'Carnelle','CC Sausseron Impressionnistes':'Sausseron','CC Vexin Centre':'Vexin Centre',"CC de la Vallée de l'Oise et des Trois Forêts":'Trois Forêts',"CC du Haut Val d'Oise":"Haut Val d'Oise",'CC du Vexin-Val de Seine':'Vexin-Val de Seine','Métropole du Grand Paris':'Argenteuil'};
+let state = {lvl:'canton', ind:'partF', sel:null, sortK:'name', sortD:1};
+try{ const s=JSON.parse(localStorage.getItem('atlas95')||'{}'); if(s.lvl) state.lvl=s.lvl; if(s.ind&&IND[s.ind]) state.ind=s.ind; }catch(e){}
+const save=()=>{try{localStorage.setItem('atlas95',JSON.stringify({lvl:state.lvl,ind:state.ind}))}catch(e){}};
+const css = v => `var(${v})`;
+
+function valid(u, ind){
+  const v = u[ind];
+  if(v==null) return false;
+  if(IND[ind].needBase && (u.adhF+u.adhH) < 100) return false;
+  if(ind==='mascShare' && u.asso < 3 && state.lvl==='commune') return false;
+  if(IND[ind].needP && (u.p19||0) < 100) return false;
+  return true;
+}
+function breaksFor(ind, units){
+  const cfg = IND[ind];
+  if(cfg.type==='div') return cfg.breaks;
+  const vals = units.filter(u=>valid(u,ind)).map(u=>u[ind]).sort((a,b)=>a-b);
+  const q = [1,2,3,4,5].map(k=>vals[Math.min(vals.length-1,Math.floor(k*vals.length/6))]);
+  return [...new Set(q)];
+}
+function cls(v, br){ let i=0; while(i<br.length && v>=br[i]) i++; return i; }
+function colorFor(u, ind, br){
+  if(ind==='evoN' && u.asso===0 && u.nS[0]===0) return 'url(#p-none)';
+  if(u.asso===0 && ind!=='sites10k' && !IND[ind].noNone) return 'url(#p-none)';
+  if(!valid(u,ind)) return 'url(#p-low)';
+  const i = cls(u[ind], br);
+  return css(IND[ind].type==='div' ? DIV[i] : SEQ[Math.min(i,SEQ.length-1)]);
+}
+
+function renderKPIs(){
+  const d = DATA.dept;
+  const k = [
+    [pc(d.partF), 'de femmes parmi les '+f0(d.adhF+d.adhH)+' adhérent·es des associations aidées (2025)'],
+    [f0(d.adhF), 'adhérentes dans '+f0(d.asso)+' associations civiles aidées'],
+    [f0(d.masc), 'associations comptent moins de 20 % de femmes, '+f0(d.fem)+' en comptent 60 % ou plus'],
+    [d.sans+' / 183', 'communes sans association civile aidée par le Département'],
+  ];
+  $('#kpis').innerHTML = k.map(([b,s])=>`<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join('');
+}
+
+function renderMap(){
+  const units = DATA.levels[state.lvl];
+  const br = breaksFor(state.ind, units);
+  const svg = $('#map');
+  svg.setAttribute('viewBox', `0 0 ${DATA.W} ${DATA.H}`);
+  const labels = state.lvl==='commune' ? '' : units.map(u=>`<text class="lab" x="${u.c[0]}" y="${u.c[1]}" text-anchor="middle">${esc(state.lvl==='epci'?(SHORT[u.name]||u.name):u.name)}</text>`).join('');
+  svg.innerHTML = `<defs>
+    <pattern id="p-low" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--na)"/><line x1="0" y1="0" x2="0" y2="6" stroke="var(--hatch)" stroke-width="1.6"/></pattern>
+    <pattern id="p-none" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="var(--na)"/><circle cx="3" cy="3" r=".8" fill="var(--na-line)"/></pattern>
+  </defs>
+  ${units.map((u,i)=>`<path class="u${state.sel===u.id?' sel':''}" data-i="${i}" tabindex="0" d="${u.d}" fill="${colorFor(u,state.ind,br)}" aria-label="${esc(u.name)} : ${IND[state.ind].fmt(u[state.ind])}"></path>`).join('')}
+  <path class="outline" d="${DATA.outline}"></path>${labels}`;
+  // drop overlapping labels (largest areas first)
+  const labs=[...svg.querySelectorAll('text.lab')];
+  const vb = svg.viewBox.baseVal, scale = (svg.getBoundingClientRect().width||DATA.W)/vb.width;
+  labs.forEach(t=>t.style.fontSize=(12/scale)+'px');
+  const placed=[];
+  labs.map((t,i)=>({t,a:areaOf(units[i])})).sort((a,b)=>b.a-a.a).forEach(({t})=>{
+    const b=t.getBBox(); const hit=placed.some(p=>!(b.x>p.x+p.width+2||b.x+b.width+2<p.x||b.y>p.y+p.height||b.y+b.height<p.y));
+    if(hit) t.remove(); else placed.push(b);
+  });
+  // bring selected to front
+  const s = svg.querySelector('path.sel'); if(s) svg.insertBefore(s, svg.querySelector('.outline'));
+  svg.querySelectorAll('path.u').forEach(p=>{
+    const u = units[+p.dataset.i];
+    p.addEventListener('mousemove', e=>showTip(e,u));
+    p.addEventListener('mouseleave', hideTip);
+    p.addEventListener('click', ()=>select(u.id));
+    p.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){e.preventDefault(); select(u.id);} });
+  });
+  renderLegend(br);
+}
+function renderLegend(br){
+  const cfg = IND[state.ind];
+  let items;
+  if(cfg.type==='div') items = cfg.names.map((n,i)=>[css(DIV[i]), n]);
+  else {
+    const b = [null,...br];
+    items = b.map((lo,i)=>{ const hi=b[i+1]; const t = lo==null?`moins de ${cfg.fmt(hi)}`: hi==null?`${cfg.fmt(lo)} et plus`:`${cfg.fmt(lo)} – ${cfg.fmt(hi)}`; return [css(SEQ[i]), t]; });
+  }
+  const extra = [];
+  if(state.ind!=='sites10k') extra.push(['p-none','aucune association aidée']);
+  if(cfg.needBase || cfg.needP || state.ind==='mascShare') extra.push(['p-low', cfg.needBase?'moins de 100 adhérent·es':cfg.needP?'moins de 100 licencié·es suivis en 2019':'moins de 3 associations']);
+  $('#legend').innerHTML = `<span class="title">${cfg.label}</span>` + items.map(([c,t])=>`<span class="sw"><i style="background:${c}"></i>${t}</span>`).join('')
+    + extra.map(([p,t])=>`<span class="sw"><svg width="16" height="12" aria-hidden="true"><rect width="16" height="12" fill="url(#${p})" stroke="var(--line)"/></svg>${t}</span>`).join('');
+  const d = DATA.dept;
+  $('#indnote').textContent = cfg.note + cfg.fmt(d[state.ind]) + '.' + (cfg.type==='seq' ? ' Classes par sextiles de l\'échelle affichée.' : '');
+}
+function areaOf(u){const m=u.d.match(/-?[\d.]+/g).map(Number);let x0=1e9,x1=-1e9,y0=1e9,y1=-1e9;for(let i=0;i<m.length;i+=2){x0=Math.min(x0,m[i]);x1=Math.max(x1,m[i]);y0=Math.min(y0,m[i+1]);y1=Math.max(y1,m[i+1]);}return (x1-x0)*(y1-y0);}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+const tip = $('#tip');
+function showTip(e,u){
+  tip.hidden=false;
+  const v = valid(u,state.ind) ? IND[state.ind].fmt(u[state.ind]) : (u.asso===0?'aucune association aidée':'effectif trop faible');
+  tip.innerHTML = `<b>${esc(u.name)}</b>${v}<br>${f0(u.adhF)} adhérentes · ${f0(u.asso)} asso.`;
+  const x = Math.min(e.clientX+14, window.innerWidth-270);
+  tip.style.left = x+'px'; tip.style.top = (e.clientY+14)+'px';
+}
+function hideTip(){ tip.hidden=true; }
+
+function select(id){ state.sel = state.sel===id ? null : id; renderMap(); renderSide(); }
+
+function renderSide(){
+  const units = DATA.levels[state.lvl];
+  const u = units.find(x=>x.id===state.sel);
+  const d = u || DATA.dept;
+  const lvlName = {commune:'Commune',canton:'Canton',epci:'Intercommunalité'}[state.lvl];
+  const tag = u ? lvlName : 'Val d\'Oise';
+  let meta = '';
+  if(u && state.lvl==='commune'){
+    meta = `<small>Canton ${esc(u.canton)}${u.cantonImp?' <span class="pill">imputé</span>':''} · ${esc(SHORT[u.epci]||u.epci)}${u.dens?' · '+esc(u.dens):''}</small>`;
+  } else if(u){ meta = `<small>${u.ncom} communes, dont ${u.sans} sans association aidée</small>`; }
+  else meta = `<small>183 communes · ensemble du département</small>`;
+  const tot = d.adhF+d.adhH;
+  const low = tot<100 && tot>0;
+  const rows = [
+    ['Population', f0(d.pop)],
+    ['Associations civiles aidées', f0(d.asso)],
+    ['Adhérentes / adhérents', f0(d.adhF)+' / '+f0(d.adhH)],
+    ['Part des femmes 2024', pc(d.partF24)],
+    ['Adhérentes pour 1 000 hab.', f1(d.adhF1000)],
+    ['Asso. < 20 % de femmes', f0(d.masc)],
+    ['Asso. ≥ 60 % de femmes', f0(d.fem)],
+    ['Bénévoles femmes', f0(d.benev)],
+    ['Salariées', f0(d.sal)],
+    ['Associations scolaires aidées', f0(d.scol)],
+    ['Lieux de pratique', f0(d.sites)],
+    ['Sections sportives scolaires 2026-27', f0(d.sss)],
+    ['Manifestations aidées 2025', f0(d.manif)],
+  ];
+  const r = ranking(units);
+  $('#side').innerHTML = `<div class="who"><span class="eyebrow">${tag}</span><h3 style="font-size:22px">${esc(u?u.name:'Val d\'Oise')}</h3>${meta}</div>
+    <div><div class="big">${d.partF==null?'–':pc(d.partF)}</div><small style="color:var(--ink-2)">de femmes parmi les adhérent·es en 2025${low?' <span class="pill">effectif faible</span>':''}</small></div>
+    <dl class="facts">${rows.map(([a,b])=>`<dt>${a}</dt><dd>${b}</dd>`).join('')}</dl>
+    ${d.pS?spark(d):''}
+    ${u?'<button type="button" class="seg" style="padding:5px 10px;font:inherit;font-size:13px;cursor:pointer;color:var(--accent)" id="back">Revenir au département</button>':''}
+    <div><span class="eyebrow">${esc(IND[state.ind].label)}</span>
+    <div class="rank"><div><small>Plus élevé</small><ol>${r.top}</ol></div><div><small>Plus bas</small><ol>${r.bot}</ol></div></div>
+    ${state.lvl==='commune'?'<p class="note">Communes d\'au moins 100 adhérent·es seulement.</p>':''}</div>`;
+  const b = $('#back'); if(b) b.addEventListener('click',()=>select(state.sel));
+  $('#side').querySelectorAll('[data-id]').forEach(el=>el.addEventListener('click',()=>{state.sel=null;select(el.dataset.id)}));
+}
+function spark(d){
+  const W=290,H=70,pad=4, v=d.pS, mx=Math.max(...v,1);
+  const x=i=>pad+i*(W-2*pad)/(v.length-1), y=t=>H-14-(t/mx)*(H-26);
+  const pts=v.map((t,i)=>`${x(i).toFixed(1)},${y(t).toFixed(1)}`).join(' ');
+  const ev = d.evoPanel==null?'effectif trop faible':IND.evoPanel.fmt(d.evoPanel);
+  return `<div><span class="eyebrow">Licencié·es 2019 → 2025</span><small style="display:block;color:var(--ink-2)">Associations présentes les 7 ans : ${f0(v[0])} → ${f0(v[v.length-1])} (${ev}) · associations aidées : ${d.nS[0]} → ${d.asso}</small>
+  <svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Évolution des licencié·es suivis de 2019 à 2025"><polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round"/>
+  ${v.map((t,i)=>`<circle cx="${x(i)}" cy="${y(t)}" r="${i===v.length-1?3.5:2}" fill="var(--accent)"><title>${2019+i} : ${f0(t)}</title></circle>`).join('')}
+  <text x="${pad}" y="${H-1}" font-size="10" fill="var(--muted)">2019</text><text x="${W-pad}" y="${H-1}" font-size="10" fill="var(--muted)" text-anchor="end">2025</text></svg></div>`;
+}
+function ranking(units){
+  const ind = state.ind;
+  let v = units.filter(u=>valid(u,ind));
+  if(state.lvl==='commune') v = v.filter(u=>u.adhF+u.adhH>=100);
+  v.sort((a,b)=>b[ind]-a[ind]);
+  const li = u=>`<li><button type="button" data-id="${esc(u.id)}"><span>${esc(state.lvl==='epci'?(SHORT[u.name]||u.name):u.name)}</span><span class="v">${IND[ind].fmt(u[ind])}</span></button></li>`;
+  return {top:v.slice(0,5).map(li).join(''), bot:v.slice(-5).reverse().map(li).join('')};
+}
+
+const COLS = [['name','Territoire'],['pop','Population'],['asso','Asso. aidées'],['adhF','Adhérentes'],['adhH','Adhérents'],['partF','Part F 2025'],['partF24','Part F 2024'],['adhF1000','Adh. F /1 000 hab.'],['masc','Asso. <20 % F'],['fem','Asso. ≥60 % F'],['benev','Bénévoles F'],['sites','Lieux'],['evoN','Évol. asso. 19→25'],['evoPanel','Évol. licencié·es 19→25']];
+function renderTable(){
+  const units = [...DATA.levels[state.lvl]];
+  const k = state.sortK, dir = state.sortD;
+  units.sort((a,b)=> k==='name' ? a.name.localeCompare(b.name,'fr')*dir : ((a[k]??-1)-(b[k]??-1))*dir);
+  const fm = {partF:pc,partF24:pc,adhF1000:f1,evoN:IND.evoN.fmt,evoPanel:IND.evoPanel.fmt};
+  $('#tbl').innerHTML = `<thead><tr>${COLS.map(([c,t])=>`<th scope="col" aria-sort="${k===c?(dir>0?'ascending':'descending'):'none'}"><button type="button" data-k="${c}">${t}${k===c?(dir>0?' ▲':' ▼'):''}</button></th>`).join('')}</tr></thead>
+  <tbody>${units.map(u=>`<tr>${COLS.map(([c])=>`<td>${c==='name'?esc(u.name):(fm[c]||f0)(u[c])}</td>`).join('')}</tr>`).join('')}</tbody>`;
+  $('#tbl').querySelectorAll('th button').forEach(b=>b.addEventListener('click',()=>{ const c=b.dataset.k; if(state.sortK===c) state.sortD*=-1; else {state.sortK=c; state.sortD=c==='name'?1:-1;} renderTable(); }));
+}
+
+function renderAll(){
+  document.querySelectorAll('#lvl button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.v===state.lvl));
+  $('#ind').value = state.ind;
+  renderMap(); renderSide(); renderTable();
+}
+$('#ind').innerHTML = Object.entries(IND).map(([k,c])=>`<option value="${k}">${c.label}</option>`).join('');
+$('#ind').addEventListener('change', e=>{ state.ind=e.target.value; save(); renderAll(); });
+document.querySelectorAll('#lvl button').forEach(b=>b.addEventListener('click',()=>{ state.lvl=b.dataset.v; state.sel=null; save(); renderAll(); }));
+
+// ---------- charts
+function hbar(svgId, rows, opt){
+  const svg0 = document.getElementById(svgId);
+  const W=Math.max(320, Math.round(svg0.getBoundingClientRect().width||560)), rowH=opt.rowH||26, left=Math.min(opt.left||190, W*0.42), right=64, top=22;
+  const H = top + rows.length*rowH + 8;
+  const x = v => left + v*(W-left-right);
+  const svg = document.getElementById(svgId);
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const ticks=[0,.25,.5,.75,1];
+  let s = ticks.map(t=>`<line class="grid" x1="${x(t)}" x2="${x(t)}" y1="${top-4}" y2="${H-4}"/><text x="${x(t)}" y="${top-8}" text-anchor="middle">${t*100} %</text>`).join('');
+  s += rows.map((r,i)=>{
+    const y = top + i*rowH;
+    const bh = rowH-8;
+    const fill = opt.color(r);
+    return `<g><text x="${left-8}" y="${y+bh/2+4}" text-anchor="end">${esc(r.n)}</text>
+      <rect class="bar" x="${x(0)}" y="${y+2}" width="${Math.max(2,x(r.p)-x(0))}" height="${bh}" rx="3" fill="${fill}" data-t="${esc(opt.tip(r))}"/>
+      <text class="v" x="${x(r.p)+6}" y="${y+bh/2+6}">${pc(r.p)}</text></g>`;
+  }).join('');
+  s += `<line class="ref" x1="${x(.5)}" x2="${x(.5)}" y1="${top-4}" y2="${H-4}"/>`;
+  svg.innerHTML = s;
+  svg.querySelectorAll('rect.bar').forEach(el=>{
+    el.addEventListener('mousemove',e=>{tip.hidden=false; tip.innerHTML=el.dataset.t; tip.style.left=Math.min(e.clientX+14,window.innerWidth-270)+'px'; tip.style.top=(e.clientY+14)+'px';});
+    el.addEventListener('mouseleave',hideTip);
+  });
+}
+const divColor = p => css(DIV[cls(p, IND.partF.breaks)]);
+function drawCharts(){
+hbar('ladder', DATA.ladder, {left:210, color:r=>divColor(r.p), tip:r=>`<b>${r.n}</b>${f0(r.f)} femmes sur ${f0(r.t)} · ${r.src}`});
+hbar('zones', DATA.zones.map(z=>({n:z.z, p:z.f/z.t, t:z.t, f:z.f})), {left:90, rowH:34, color:r=>divColor(r.p), tip:r=>`<b>Zone ${r.n}</b>${r.f} présidentes sur ${r.t} clubs`});
+hbar('disc', DATA.comites, {left:170, rowH:21, color:r=>divColor(r.p), tip:r=>`<b>${r.n}</b>${f0(r.f)} féminines sur ${f0(r.lic)} licencié·es`});
+}
+drawCharts();
+
+function lineChart(id, pts, o){
+  const svg=document.getElementById(id); const W=Math.max(300,Math.round(svg.getBoundingClientRect().width||520)), H=230, L=o.left||48, R=18, T=18, B=34;
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const xs=i=>L+i*(W-L-R)/(pts.length-1), ys=v=>T+(1-(v-o.min)/(o.max-o.min))*(H-T-B);
+  let s=o.ticks.map(t=>`<line class="grid" x1="${L}" x2="${W-R}" y1="${ys(t)}" y2="${ys(t)}"/><text x="${L-6}" y="${ys(t)+4}" text-anchor="end">${o.tf(t)}</text>`).join('');
+  if(o.band) s+=`<rect x="${xs(o.band[0])-6}" y="${T}" width="${xs(o.band[1])-xs(o.band[0])+12}" height="${H-T-B}" fill="var(--surface-2)"/><text x="${(xs(o.band[0])+xs(o.band[1]))/2}" y="${T+12}" text-anchor="middle" font-size="11">${o.bandLabel}</text>`;
+  s+=`<polyline points="${pts.map((p,i)=>xs(i)+','+ys(p.v)).join(' ')}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round"/>`;
+  s+=pts.map((p,i)=>`<circle cx="${xs(i)}" cy="${ys(p.v)}" r="${i===pts.length-1?4.5:3.5}" fill="var(--accent)" stroke="var(--surface)" stroke-width="1.5" data-t="${esc(p.t)}"/><text x="${xs(i)}" y="${H-12}" text-anchor="middle">${p.x}</text>`).join('');
+  const lp=pts[pts.length-1], fp=pts[0];
+  s+=`<text class="v" x="${xs(0)}" y="${ys(fp.v)-10}" text-anchor="start">${o.tf(fp.v,1)}</text><text class="v" x="${xs(pts.length-1)}" y="${ys(lp.v)-10}" text-anchor="end">${o.tf(lp.v,1)}</text>`;
+  svg.innerHTML=s;
+  svg.querySelectorAll('circle[data-t]').forEach(el=>{el.addEventListener('mousemove',e=>{tip.hidden=false;tip.innerHTML=el.dataset.t;tip.style.left=Math.min(e.clientX+14,window.innerWidth-270)+'px';tip.style.top=(e.clientY+14)+'px';});el.addEventListener('mouseleave',hideTip);});
+}
+function dumbbell(id, rows){
+  const svg=document.getElementById(id); const W=Math.max(320,Math.round(svg.getBoundingClientRect().width||900)), rowH=22, L=Math.min(170,W*.36), R=60, T=22;
+  const H=T+rows.length*rowH+6; svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const x=v=>L+v*(W-L-R);
+  let s=[0,.25,.5,.75,1].map(t=>`<line class="${t===.5?'ref':'grid'}" x1="${x(t)}" x2="${x(t)}" y1="${T-4}" y2="${H-4}"/><text x="${x(t)}" y="${T-8}" text-anchor="middle">${t*100} %</text>`).join('');
+  s+=rows.map((r,i)=>{const y=T+i*rowH+rowH/2; const d=(r.b-r.a)*100;
+    return `<g data-t="${esc(`<b>${r.n}</b>2020/21 : ${pc(r.a)} · 2025/26 : ${pc(r.b)}<br>${d>0?'+':''}${f1(d)} pt · ${f0(r.lic)} licencié·es en 2025/26`)}"><rect x="0" y="${y-rowH/2}" width="${W}" height="${rowH}" fill="transparent"/>
+    <text x="${L-8}" y="${y+4}" text-anchor="end">${esc(r.n)}</text>
+    <line x1="${x(r.a)}" x2="${x(r.b)}" y1="${y}" y2="${y}" stroke="var(--muted)" stroke-width="2"/>
+    <circle cx="${x(r.a)}" cy="${y}" r="5" fill="var(--s2)" stroke="var(--surface)" stroke-width="1.5"/>
+    <circle cx="${x(r.b)}" cy="${y}" r="5" fill="var(--s5)" stroke="var(--surface)" stroke-width="1.5"/>
+    <text class="v" x="${x(Math.max(r.a,r.b))+10}" y="${y+4}">${d>0?'+':''}${f1(d)} pt</text></g>`;}).join('');
+  svg.innerHTML=s;
+  svg.querySelectorAll('g[data-t]').forEach(el=>{el.addEventListener('mousemove',e=>{tip.hidden=false;tip.innerHTML=el.dataset.t;tip.style.left=Math.min(e.clientX+14,window.innerWidth-270)+'px';tip.style.top=(e.clientY+14)+'px';});el.addEventListener('mouseleave',hideTip);});
+}
+function drawTime(){
+  lineChart('tFem', DATA.discTot.map(p=>({x:p.s.replace('20','').replace('/20','/'), v:p.p, t:`<b>${p.s}</b>${pc(p.p)} · ${f0(p.f)} féminines sur ${f0(p.lic)}`})),
+    {min:.30,max:.42,ticks:[.30,.33,.36,.39,.42],tf:(v,k)=>k?pc(v):Math.round(v*100)+' %'});
+  const ds=DATA.deptSeries;
+  lineChart('tVol', ds.map(p=>({x:String(p.y), v:p.pvol/1000, t:`<b>${p.y}</b>${f0(p.pvol)} licencié·es dans les ${DATA.n7} associations suivies · ${f0(p.n)} associations aidées au total`})),
+    {left:44,min:80,max:120,ticks:[80,90,100,110,120],tf:(v,k)=>k?f0(v*1000):v+' k', band:[1,3], bandLabel:'crise sanitaire'});
+  dumbbell('tDisc', DATA.discEvo);
+}
+drawTime();
+{
+  const t=DATA.discTot, a=t[0], b=t[t.length-1], mx=t.reduce((m,p)=>p.p>m.p?p:m,t[0]);
+  $('#tFemNote').textContent=`${DATA.ndisc5} disciplines présentes aux 5 saisons (pas de données féminines en 2021/22). De ${pc(a.p)} en 2020/21 à ${pc(mx.p)} en ${mx.s}, puis ${pc(b.p)} en 2025/26. Les féminines passent de ${f0(a.f)} à ${f0(b.f)}.`;
+  const ds=DATA.deptSeries, d=DATA.dept;
+  $('#tVolNote').textContent=`Les ${DATA.n7} associations aidées chaque année de 2019 à 2025. Licencié·es jusqu'en 2023, adhérent·es ensuite. ${f0(ds[0].pvol)} en 2019, ${f0(ds[3].pvol)} en 2022, ${f0(ds[6].pvol)} en 2025 (${IND.evoPanel.fmt(d.evoPanel)}). Part des femmes dans les ${f0(DATA.panel45.n)} associations présentes en 2024 et 2025 : ${pc(DATA.panel45.p24)} puis ${pc(DATA.panel45.p25)}.`;
+}
+const sa = DATA.saisons;
+$('#discnote').textContent = `Source : comités départementaux, onglet Bilan. Sur l'ensemble des comités qui renseignent les féminines, la part des femmes varie peu : ${sa.map(s=>s.s+' '+pc(s.p)).join(' ; ')}.`;
+
+// findings
+(function(){
+  const d = DATA.dept, can = DATA.levels.canton.filter(u=>u.partF!=null).sort((a,b)=>a.partF-b.partF);
+  const lo = can.slice(0,2), hi = can.slice(-2).reverse();
+  const lad = DATA.ladder, pres = lad.find(x=>x.n.startsWith('Présidentes')), dir = lad.find(x=>x.n.startsWith('Directrices'));
+  const F = [
+    ['Une pratique stable, loin de la parité', `Les femmes représentent ${pc(d.partF)} des adhérent·es des associations aidées en 2025, comme en 2024 (${pc(d.partF24)}). ${f0(d.masc)} associations sur ${f0(d.asso)} comptent moins de 20 % de femmes.`],
+    ['Des écarts nets entre cantons', `La part des femmes va de ${pc(lo[0].partF)} (${lo[0].name}) et ${pc(lo[1].partF)} (${lo[1].name}) à ${pc(hi[1].partF)} (${hi[1].name}) et ${pc(hi[0].partF)} (${hi[0].name}). Ces écarts peuvent aussi tenir à l'offre de disciplines de chaque territoire.`],
+    ['Une gouvernance très masculine', `Les femmes sont ${pc(pres.p)} des présidences de club (2021) et ${pc(dir.p)} des directions des sports communales. Dans la zone Vexin, ${DATA.zones[2].f} présidentes sur ${DATA.zones[2].t} clubs.`],
+  ];
+  $('#findings').innerHTML = F.map(([h,p])=>`<div class="panel"><h3>${h}</h3><p>${p}</p></div>`).join('');
+})();
+
+renderKPIs();
+renderAll();
+let rt; window.addEventListener('resize',()=>{clearTimeout(rt); rt=setTimeout(()=>{renderMap(); drawCharts(); drawTime();},200);});
+</script>
